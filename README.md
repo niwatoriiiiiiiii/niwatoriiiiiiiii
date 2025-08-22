@@ -1,6 +1,10 @@
 ## Hello, World! 🐔
 
 [![Rating](https://badgen.org/img/atcoder/niwatoriiiiiiiii/rating/algorithm?style=for-the-badge)](https://atcoder.jp/users/niwatoriiiiiiiii?contestType=algo)
+![Static Badge](https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=for-the-badge&logo=C%2B%2B&logoColor=%23ffffff&color=%2300599C)
+
+- 🌱 I’m currently learning ... C++, C#
+- 🤔 I’m looking for help with ... AtCoder, Unity
 
 <!--
 **niwatoriiiiiiiii/niwatoriiiiiiiii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
