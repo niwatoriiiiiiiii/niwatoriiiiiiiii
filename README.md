@@ -1,5 +1,7 @@
 ## Hello, World! 🐔
 
+[![Rating](https://badgen.org/img/atcoder/niwatoriiiiiiiii/rating/algorithm?style=for-the-badge)](https://atcoder.jp/users/niwatoriiiiiiiii?contestType=algo)
+
 <!--
 **niwatoriiiiiiiii/niwatoriiiiiiiii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
