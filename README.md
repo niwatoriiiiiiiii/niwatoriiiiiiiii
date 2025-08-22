@@ -24,7 +24,7 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=niwatoriiiiiiiii&theme=dark)](https://git.io/streak-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=niwatoriiiiiiiii&show_icons=true&theme=dark)
 
-## other<br>
+## Others<br>
 
 [![Rating](https://badgen.org/img/atcoder/niwatoriiiiiiiii/rating/algorithm?style=for-the-badge)](https://atcoder.jp/users/niwatoriiiiiiiii?contestType=algo)
 
