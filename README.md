@@ -3,8 +3,6 @@
 [![Rating](https://badgen.org/img/atcoder/niwatoriiiiiiiii/rating/algorithm?style=for-the-badge)](https://atcoder.jp/users/niwatoriiiiiiiii?contestType=algo)
 ![Static Badge](https://img.shields.io/badge/Unity-Unity?style=for-the-badge&logo=Unity&logoColor=%23ffffff&color=%23383838)
 ![Static Badge](https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=for-the-badge&logo=C%2B%2B&logoColor=%23ffffff&color=%2300599C)
-![Static Badge](https://img.shields.io/badge/X-X?style=for-the-badge&logo=X&logoColor=%23ffffff&color=%23000000&link=https%3A%2F%2Fx.com%2Fniwatori_saaaan)
-![Static Badge](https://img.shields.io/badge/Discord-Discord?style=for-the-badge&logo=Discord&logoColor=%23ffffff&color=%235865F2&link=discordapp.com%2Fusers%2F1353644959454068736)
 
 - 🌱 I’m currently learning ... C++, C#
 - 🤔 I’m looking for help with ... AtCoder, Unity
