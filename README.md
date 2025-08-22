@@ -7,8 +7,6 @@
 - 🌱 I’m currently learning ... C++, C#
 - 🤔 I’m looking for help with ... AtCoder, Unity
 
-- そこらへんのにわとり
-
 <!--
 **niwatoriiiiiiiii/niwatoriiiiiiiii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
