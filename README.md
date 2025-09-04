@@ -21,6 +21,7 @@
 
 ## 📊 GitHub Stats<br>
 
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=niwatoriiiiiiiii&theme=github-compact)](https://github.com/niwatoriiiiiiiii/github-readme-activity-graph)
 [![GitHub Streak](https://streak-stats.demolab.com/?user=niwatoriiiiiiiii&theme=dark)](https://git.io/streak-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=niwatoriiiiiiiii&show_icons=true&theme=dark)
 
