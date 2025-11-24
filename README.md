@@ -1,7 +1,7 @@
 # Hello, World! 🐔
 
-- 🌱 I’m currently learning ... C++, C#, TypeScript, Phaser3
-- 🤔 I’m looking for help with ... TypeScript, Phaser3
+- 🌱 I’m currently learning ... C++, C#, Unity, TypeScript
+- 🤔 I’m looking for help with ... TypeScript, Unity
 - 💤 **No sleep, no life**
 
 ## 🛠 Tech Stack
