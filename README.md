@@ -1,7 +1,7 @@
 # Hello, World! 🐔
 
-- 🌱 I’m currently learning ... C++, C#, Unity, Rust, TypeScript
-- 🤔 I’m looking for help with ... Rust, TypeScript, Unity
+- 🌱 I’m currently learning ... C++, C#, Unity, Rust
+- 🤔 I’m looking for help with ... Rust, Unity
 - 💤 **No sleep, no life**
 
 ## 🛠 Tech Stack
@@ -11,9 +11,7 @@
 ![Static Badge](https://img.shields.io/badge/C%23-C%23?style=for-the-badge&logoColor=%23ffffff&color=%23863A85)
 ![Static Badge](https://img.shields.io/badge/Rust-Rust?style=for-the-badge&logo=Rust&logoColor=%23000000&color=%23ffffff)
 ![Static Badge](https://img.shields.io/badge/HTML5-HTML5?style=for-the-badge&logo=HTML5&logoColor=ffffff&color=%23E34F26)
-![Static Badge](https://img.shields.io/badge/CSS-CSS?style=for-the-badge&logo=CSS&logoColor=ffffff&color=%23663399)
-![Static Badge](https://img.shields.io/badge/TypeScript-TypeScript?style=for-the-badge&logo=TypeScript&logoColor=ffffff&color=%233178C6)
-![Static Badge](https://img.shields.io/badge/JavaScript-JavaScript?style=for-the-badge&logo=JavaScript&logoColor=000000&color=%23F7DF1E)<br>
+![Static Badge](https://img.shields.io/badge/CSS-CSS?style=for-the-badge&logo=CSS&logoColor=ffffff&color=%23663399)<br>
 
 **💻 Tools**<br>
 
