@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マークダウン機能テスト</title>
+    <!-- Favicon -->
+    <link rel="icon" href="..&#x2F;..&#x2F;assets/icons/favicon.ico">
+    <!-- Styles -->
+    <link rel="stylesheet" href="..&#x2F;..&#x2F;assets/css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Outfit:wght@300;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="..&#x2F;..&#x2F;" class="breadcrumb-item">にわとりのいえ</a>
+                
+                <span class="breadcrumb-item">></span>
+                <span class="breadcrumb-item">Blog</span>
+                <span class="breadcrumb-item">></span>
+                <span class="breadcrumb-item">マークダウン機能テスト</span>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+<article class="section">
+    <div class="container">
+        <div class="article-header">
+            <time class="blog-date">2026-05-10</time>
+            <h1 class="article-title">マークダウン機能テスト</h1>
+        </div>
+        
+        <div class="separator"></div>
+        
+        <div class="content-wrapper article-content">
+            <h1>全機能テスト</h1>
+<p>このページでは、新しく導入したジェネレーターの機能をすべて試します。</p>
+<h2>1. テキスト装飾</h2>
+<ul>
+<li><strong>太字</strong> と <em>斜体</em></li>
+<li><del>取り消し線</del></li>
+<li><code>インラインコード</code></li>
+</ul>
+<h2>2. チェックボックス</h2>
+<ul>
+<li><input  type="checkbox" checked=""/>
+Rust製静的サイトジェネレーターの自作</li>
+<li><input  type="checkbox" checked=""/>
+KaTeX による数式表示の導入</li>
+<li><input  type="checkbox"/>
+記事投稿の完全自動化（GitHub Actions）</li>
+</ul>
+<ol>
+<li>Rustを学ぶ</li>
+<li>サイトを作る</li>
+<li>世界に公開する</li>
+</ol>
+<h2>3. コード</h2>
+<script src="https://gist.github.com/niwatoriiiiiiiii/10762cf8b9b44936821c94c4f460e559.js"></script>
+<h2>4. テーブル (表)</h2>
+<table><thead><tr><th style="text-align: center">言語</th><th style="text-align: center">好き度</th></tr></thead><tbody>
+<tr><td style="text-align: center">Rust</td><td style="text-align: center">⭐⭐⭐</td></tr>
+<tr><td style="text-align: center">C++</td><td style="text-align: center">⭐⭐</td></tr>
+<tr><td style="text-align: center">Javascript</td><td style="text-align: center">⭐</td></tr>
+</tbody></table>
+<h2>5. 引用と脚注</h2>
+<blockquote>
+<p>鶏口となるも牛後となるなかれ<sup class="footnote-reference"><a href="#1">1</a></sup></p>
+</blockquote>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>大きな組織の末端になるより、小さな組織のトップになる方が良いという意味のことわざ。</p>
+</div>
+<hr />
+<h2>6. 数式 (KaTeX)</h2>
+<p>インライン数式: $E = mc^2$</p>
+<p>ブロック数式:</p>
+<p>$$
+\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$</p>
+<h2>7. 画像とリンク</h2>
+<p>画像を表示します:
+<img src="sky.png" alt="テスト画像" /></p>
+<p>外部リンクのテスト: <a href="https://github.com/niwatoriiiiiiiii">Github</a></p>
+<hr />
+<p>テストは以上です</p>
+
+        </div>
+    </div>
+</article>
+
+<div class="container">
+    <nav class="article-nav">
+        <div class="nav-prev">
+            
+        </div>
+        
+        <div class="nav-next">
+            
+            <a href="..&#x2F;..&#x2F;articles/2026-05-09-test\index.html" class="nav-item">
+                <span class="nav-label">PREV</span>
+                Test Post &gt;
+            </a>
+            
+        </div>
+    </nav>
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 niwatoriiiiiiiii. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- KaTeX Script -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false}
+                ],
+                throwOnError : false
+            });
+
+            // 外部リンクを別タブで開く
+            const links = document.querySelectorAll('a[href^="http"]');
+            links.forEach(link => {
+                if (!link.href.includes(window.location.host)) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

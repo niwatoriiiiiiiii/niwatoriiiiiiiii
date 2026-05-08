@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<article class="section">
+    <div class="container">
+        <div class="article-header">
+            <time class="blog-date">{{ date }}</time>
+            <h1 class="article-title">{{ title }}</h1>
+        </div>
+        
+        <div class="separator"></div>
+        
+        <div class="content-wrapper article-content">
+            {{ body | safe }}
+        </div>
+    </div>
+</article>
+
+<div class="container">
+    <nav class="article-nav">
+        <div class="nav-prev">
+            {% if next_post %}
+            <a href="{{ base_url }}articles/{{ next_post.out_rel_path }}" class="nav-item">
+                <span class="nav-label">NEXT</span>
+                &lt; {{ next_post.title }}
+            </a>
+            {% endif %}
+        </div>
+        
+        <div class="nav-next">
+            {% if prev_post %}
+            <a href="{{ base_url }}articles/{{ prev_post.out_rel_path }}" class="nav-item">
+                <span class="nav-label">PREV</span>
+                {{ prev_post.title }} &gt;
+            </a>
+            {% endif %}
+        </div>
+    </nav>
+</div>
+{% endblock %}
