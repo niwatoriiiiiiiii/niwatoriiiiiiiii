@@ -3,6 +3,11 @@
 {% block content %}
 <article class="section">
     <div class="container">
+        {% if header_image_url %}
+        <div class="article-hero-image">
+            <img src="{{ base_url }}{{ header_image_url }}" alt="{{ title }}">
+        </div>
+        {% endif %}
         <div class="article-header">
             <time class="blog-date">{{ date }}</time>
             <h1 class="article-title">{{ title }}</h1>

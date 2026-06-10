@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>マークダウン機能テスト</title>
+    <title>Markdown Test</title>
     <!-- Favicon -->
     <link rel="icon" href="..&#x2F;..&#x2F;assets/icons/favicon.ico">
     <!-- Styles -->
     <link rel="stylesheet" href="..&#x2F;..&#x2F;assets/css/style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Outfit:wght@300;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Silkscreen:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <!-- KaTeX -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 </head>
@@ -19,12 +19,12 @@
     <header class="header">
         <div class="container">
             <nav class="breadcrumbs">
-                <a href="..&#x2F;..&#x2F;" class="breadcrumb-item">にわとりのいえ</a>
+                <a href="..&#x2F;..&#x2F;" class="breadcrumb-item">HOME</a>
                 
                 <span class="breadcrumb-item">></span>
                 <span class="breadcrumb-item">Blog</span>
                 <span class="breadcrumb-item">></span>
-                <span class="breadcrumb-item">マークダウン機能テスト</span>
+                <span class="breadcrumb-item">Markdown Test</span>
                 
             </nav>
         </div>
@@ -34,23 +34,28 @@
         
 <article class="section">
     <div class="container">
+        
+        <div class="article-hero-image">
+            <img src="..&#x2F;..&#x2F;articles&#x2F;2026-05-10-feature-test&#x2F;sky.png" alt="Markdown Test">
+        </div>
+        
         <div class="article-header">
             <time class="blog-date">2026-05-10</time>
-            <h1 class="article-title">マークダウン機能テスト</h1>
+            <h1 class="article-title">Markdown Test</h1>
         </div>
         
         <div class="separator"></div>
         
         <div class="content-wrapper article-content">
-            <h1>全機能テスト</h1>
+            <h2>全機能テスト</h2>
 <p>このページでは、新しく導入したジェネレーターの機能をすべて試します。</p>
-<h2>1. テキスト装飾</h2>
+<h3>1. テキスト装飾</h3>
 <ul>
 <li><strong>太字</strong> と <em>斜体</em></li>
 <li><del>取り消し線</del></li>
 <li><code>インラインコード</code></li>
 </ul>
-<h2>2. チェックボックス</h2>
+<h3>2. チェックボックス</h3>
 <ul>
 <li><input  type="checkbox" checked=""/>
 Rust製静的サイトジェネレーターの自作</li>
@@ -64,15 +69,15 @@ KaTeX による数式表示の導入</li>
 <li>サイトを作る</li>
 <li>世界に公開する</li>
 </ol>
-<h2>3. コード</h2>
+<h3>3. コード</h3>
 <script src="https://gist.github.com/niwatoriiiiiiiii/10762cf8b9b44936821c94c4f460e559.js"></script>
-<h2>4. テーブル (表)</h2>
+<h3>4. テーブル (表)</h3>
 <table><thead><tr><th style="text-align: center">言語</th><th style="text-align: center">好き度</th></tr></thead><tbody>
 <tr><td style="text-align: center">Rust</td><td style="text-align: center">⭐⭐⭐</td></tr>
 <tr><td style="text-align: center">C++</td><td style="text-align: center">⭐⭐</td></tr>
 <tr><td style="text-align: center">Javascript</td><td style="text-align: center">⭐</td></tr>
 </tbody></table>
-<h2>5. 引用と脚注</h2>
+<h3>5. 引用と脚注</h3>
 <blockquote>
 <p>鶏口となるも牛後となるなかれ<sup class="footnote-reference"><a href="#1">1</a></sup></p>
 </blockquote>
@@ -80,13 +85,13 @@ KaTeX による数式表示の導入</li>
 <p>大きな組織の末端になるより、小さな組織のトップになる方が良いという意味のことわざ。</p>
 </div>
 <hr />
-<h2>6. 数式 (KaTeX)</h2>
+<h3>6. 数式 (KaTeX)</h3>
 <p>インライン数式: $E = mc^2$</p>
 <p>ブロック数式:</p>
 <p>$$
 \int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$</p>
-<h2>7. 画像とリンク</h2>
+<h3>7. 画像とリンク</h3>
 <p>画像を表示します:
 <img src="sky.png" alt="テスト画像" /></p>
 <p>外部リンクのテスト: <a href="https://github.com/niwatoriiiiiiiii">Github</a></p>
@@ -105,9 +110,9 @@ $$</p>
         
         <div class="nav-next">
             
-            <a href="..&#x2F;..&#x2F;articles/2026-05-09-test\index.html" class="nav-item">
+            <a href="..&#x2F;..&#x2F;articles/2026-05-01-hello\index.html" class="nav-item">
                 <span class="nav-label">PREV</span>
-                Test Post &gt;
+                Hello World! &gt;
             </a>
             
         </div>

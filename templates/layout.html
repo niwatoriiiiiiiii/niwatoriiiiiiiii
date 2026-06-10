@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title | default(value="niwatoriiiiiiiii | Portfolio") }}</title>
+    <title>{{ title | default(value="niwatoriiiiiiiii") }}</title>
     <!-- Favicon -->
     <link rel="icon" href="{{ base_url }}assets/icons/favicon.ico">
     <!-- Styles -->
     <link rel="stylesheet" href="{{ base_url }}assets/css/style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Outfit:wght@300;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Silkscreen:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
     <!-- KaTeX -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 </head>
@@ -19,7 +19,7 @@
     <header class="header">
         <div class="container">
             <nav class="breadcrumbs">
-                <a href="{{ base_url }}" class="breadcrumb-item">にわとりのいえ</a>
+                <a href="{{ base_url }}" class="breadcrumb-item">HOME</a>
                 {% if page_title %}
                 <span class="breadcrumb-item">></span>
                 <span class="breadcrumb-item">Blog</span>

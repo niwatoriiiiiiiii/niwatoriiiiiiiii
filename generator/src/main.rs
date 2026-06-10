@@ -14,7 +14,9 @@ struct Post {
     #[serde(skip)]
     body: String,
     // Relative path to the output index.html (e.g. "my-post/index.html")
-    out_rel_path: String, 
+    out_rel_path: String,
+    // URL to the header image (e.g. "articles/my-post/image.png")
+    header_image_url: Option<String>,
 }
 
 fn main() -> Result<()> {
@@ -50,12 +52,18 @@ fn main() -> Result<()> {
                 // If directly in articles/, use filename as slug
                 rel_path.with_extension("").join("index.html")
             };
+
+            let header_image_url = metadata.header_image.map(|img| {
+                let dir = out_rel_path.parent().unwrap();
+                format!("articles/{}/{}", dir.to_string_lossy(), img).replace("\\", "/")
+            });
             
             posts.push(Post {
                 title: metadata.title,
                 date: metadata.date,
                 body: body.to_string(),
                 out_rel_path: out_rel_path.to_string_lossy().to_string(),
+                header_image_url,
             });
         } else if !file_name.starts_with('.') {
             // Copy assets (images, etc.)
@@ -104,6 +112,9 @@ fn main() -> Result<()> {
         context.insert("base_url", &base_url);
         context.insert("prev_post", &prev_post);
         context.insert("next_post", &next_post);
+        if let Some(img) = &post.header_image_url {
+            context.insert("header_image_url", img);
+        }
 
         let rendered = tera.render("article.html", &context)?;
         
@@ -158,4 +169,5 @@ fn parse_frontmatter(content: &str) -> Result<(PostMetadata, &str)> {
 struct PostMetadata {
     title: String,
     date: String,
+    header_image: Option<String>,
 }

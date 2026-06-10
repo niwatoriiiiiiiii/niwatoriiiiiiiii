@@ -4,7 +4,7 @@
 <!-- Title -->
 <section class="section title-section">
     <div class="container">
-        <h2 class="section-title">にわとりのいえ</h2>
+        <h2 class="section-title">HOME</h2>
     </div>
 </section>
 
@@ -24,7 +24,6 @@
             <!-- Profile Info -->
             <div class="profile-info">
                 <h2 class="profile-name">niwatoriiiiiiiii</h2>
-                <p class="profile-tagline">そこらへんのにわとり</p>
             </div>
         </div>
     </div>
@@ -51,10 +50,17 @@
         <h3 class="section-title">Blog</h3>
         <div class="blog-posts">
             <!-- Posts will be injected here -->
-            {% for post in posts %}
-            <a href="articles/{{ post.out_rel_path }}" class="blog-post-card">
-                <time class="blog-date">{{ post.date }}</time>
-                <h4 class="blog-title">{{ post.title }}</h4>
+            {% for post in posts | slice(end=2) %}
+            <a href="articles/{{ post.out_rel_path }}" class="blog-post-card {% if post.header_image_url %}has-image{% endif %}">
+                {% if post.header_image_url %}
+                <div class="blog-post-image">
+                    <img src="{{ base_url }}{{ post.header_image_url }}" alt="{{ post.title }}">
+                </div>
+                {% endif %}
+                <div class="blog-post-content">
+                    <time class="blog-date">{{ post.date }}</time>
+                    <h4 class="blog-title">{{ post.title }}</h4>
+                </div>
             </a>
             {% endfor %}
         </div>
@@ -64,14 +70,14 @@
 <!-- Skills -->
 <section id="skills" class="section">
     <div class="container">
-        <h3 class="section-title">Skills</h3>
+        <h3 class="section-title">Learning</h3>
         <div class="grid">
             <div class="skill-item">
                 <h4>Rust</h4>
                 <p>学習中です。競技プログラミングで使用したり、簡単なツールを作ったりしています。</p>
             </div>
             <div class="skill-item">
-                <h4>Competitive Programming</h4>
+                <h4>Algorithm</h4>
                 <p>AtCoderに参加しています。アルゴリズムとデータ構造の基礎を学んでいます。</p>
             </div>
         </div>
