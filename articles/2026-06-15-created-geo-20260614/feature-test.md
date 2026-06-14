@@ -1,6 +1,7 @@
 ---
 title: "Created Geo-20260614"
 date: 2026-06-15
+header_image: header-fig.png
 ---
 
 ## 作問した問題
