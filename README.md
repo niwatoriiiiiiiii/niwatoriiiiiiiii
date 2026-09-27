@@ -4,7 +4,7 @@
 - 🤔 I’m looking for help with ... Rust, AtCoder
 - 💤 **No sleep, no life**
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 **🔧 Languages**<br>
 
