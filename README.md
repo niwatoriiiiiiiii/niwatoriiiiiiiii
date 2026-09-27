@@ -25,11 +25,15 @@
 
 ## 📊 GitHub Stats<br>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=niwatoriiiiiiiii&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
-![repos-per-language](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=niwatoriiiiiiiii&theme=github_dark)
-![most-commit-language](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=niwatoriiiiiiiii&theme=github_dark)
-![stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=niwatoriiiiiiiii&theme=github_dark)
-![productive-time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=niwatoriiiiiiiii&theme=github_dark&utcOffset=9)
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" /><br/>
+
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" /><br/>
+
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" />
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" />
+</p>
 
 ## Others<br>
 
